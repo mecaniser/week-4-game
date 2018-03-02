@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Crystals Collector Game</title>
+</head>
+<body>
+    <header><h1>Crystal Colector Game!</h1></header>
+    <div class="howToPlay">
+        <ol>
+            <li>A random number will be picked at the start of the game. <span>"Number to pick"</span></li>
+                <ul>
+                    <li>Using this four crystals: </li>
+                    <li id="crstl1">Blue</li>
+                    <li id="crstl2"> Green</li>
+                    <li id="crstl3">Red</li>
+                    <li id="crstl4">Yellow</li>
+                </ul>
+            <li>Each Crystal has its own number which is randomly picked between 1-12</li>
+            <li>Click on each one will add points to total score. </li>
+            <li>You can win only if your number will match the random number picked at the begining of the game.</li>
+            <li>If your total score is more than the number picked, you lose.</li>
+            <li>When a new game starts, your crystal number will be different and hidden!</li>
+
+        </ol>
+    </div>
+    <div class="nmbrMatch">
+        <h3>Number to pick:
+            <span id="rndmNumber"></span>
+        </h3>
+    </div>
+    <div class="W-and-L">
+        <h3>
+            Wins:
+            <span id="nmbrWins"></span>
+            <br><hr>
+            Losses:
+            <span id="nmbrLosses"></span>
+        </h3>
+    </div>
+
+    <div class="CrstlS">
+        <img src="../images/Arena_Crystal.png" alt="Arena_Crystal">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+
+    <div class="usrTotal">
+        <h3>
+            Master Totatl Score:
+            <span id="fnlTotal"></span>
+        </h3>
+    </div>
+    
+</body>
+</html>

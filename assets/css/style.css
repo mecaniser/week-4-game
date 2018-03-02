@@ -1,0 +1,77 @@
+*       
+        {
+box-sizing: border-box;
+text-align: center;
+        }
+body    {
+background-image: url(../images/background.png)
+        }
+div       {
+background-color: white;
+margin: 10px;
+width: 25%
+        }
+div     {
+    border: solid 2px #009688;
+    padding: 15px;
+    width: 100%;
+        }
+h1, h3, span
+        {
+font-weight: bold;
+text-align: center;
+        }
+h1      {
+font-size: 30pt;
+        }
+ol      {
+list-style: decimal inside; 
+        }
+ul      {
+list-style: disc inside;
+text-indent: 20px;
+        }
+/* Specfic Elements*/
+        }
+.howToPlay{
+width: 90%;
+margin-left: 50px;
+        }
+/* Classes */
+.nmbrToMatch, .WandL{
+float: left;
+width: 15%;
+height: 60px;
+        }
+.usrTotal{
+width: 100%;
+height: auto;
+        }
+.CrstlS {
+    clear: both;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;    
+    background-color: lightblue;
+        }
+.gemImage
+        {
+height: 60px;
+margin: 10px;
+        }
+#blue   {
+color: #3092c7;
+        }
+#green  {
+color: #00aa59;
+        }
+#red    {
+color: #ec4b5f;
+        }
+#yellow {
+color: #ffc225;
+        }
+img{
+    width: 40%;
+}
