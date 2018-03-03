@@ -4,74 +4,89 @@ box-sizing: border-box;
 text-align: center;
         }
 body    {
-background-image: url(../images/background.png)
-        }
-div       {
-background-color: white;
-margin: 10px;
-width: 25%
+background-image: url(../images/congruent_outline.png)
         }
 div     {
     border: solid 2px #009688;
     padding: 15px;
-    width: 100%;
+    width: 50%;
         }
-h1, h3, span
+h1{
+    font-size: 125px;
+    width: 100%;
+    color: whitesmoke;
+}
+h3, h2, span
         {
 font-weight: bold;
 text-align: center;
-        }
-h1      {
 font-size: 30pt;
         }
 ol      {
 list-style: decimal inside; 
+font-size: 25px;
         }
-ul      {
-list-style: disc inside;
-text-indent: 20px;
-        }
-/* Specfic Elements*/
-        }
-.howToPlay{
+.howToPlay
+        {
 width: 90%;
 margin-left: 50px;
         }
-/* Classes */
 .nmbrToMatch, .WandL{
 float: left;
 width: 15%;
 height: 60px;
         }
 .usrTotal{
-width: 100%;
-height: auto;
-        }
-.CrstlS {
-    clear: both;
-    width: 90%;
+    width: 50%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;    
+    background: lightgoldenrodyellow;
+        }
+.CrstLs {
+    clear: both;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;    
     background-color: lightblue;
+    padding-top: 50px;
         }
-.gemImage
+img
         {
-height: 60px;
-margin: 10px;
+    width: 24%;
+    border: 1px solid red;
+    box-shadow: whitesmoke 5px 5px 5px;
+    border-radius: 5px;
+    transition: box-shadow 1s, transform 1s;
+
         }
-#blue   {
-color: #3092c7;
-        }
-#green  {
-color: #00aa59;
-        }
-#red    {
-color: #ec4b5f;
-        }
-#yellow {
-color: #ffc225;
-        }
-img{
-    width: 40%;
+img:hover{
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+    transform: translate(5px,30px);
+    transition: box-shadow 1s, transform 1s;
 }
+        
+.howToPlay{
+background: lightcoral;
+margin-left: auto;
+margin-right: auto;
+        }
+.nmbrMatch{
+    background: lightgreen;
+margin-left: auto;
+margin-right: auto;
+        }
+.W-and-L
+        {
+    background: lightpink;
+margin-left: auto;
+margin-right: auto
+        }
+.crstLs
+        {
+    background: lightseagreen;
+margin-left: auto;
+margin-right: auto
+        }

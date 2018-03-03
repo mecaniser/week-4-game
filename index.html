@@ -14,15 +14,8 @@
 <body>
     <header><h1>Crystal Colector Game!</h1></header>
     <div class="howToPlay">
+            <h2>A random number will be picked as soon as the game will start. <span>"Click to equal"</span></h2>
         <ol>
-            <li>A random number will be picked at the start of the game. <span>"Number to pick"</span></li>
-                <ul>
-                    <li>Using this four crystals: </li>
-                    <li id="crstl1">Blue</li>
-                    <li id="crstl2"> Green</li>
-                    <li id="crstl3">Red</li>
-                    <li id="crstl4">Yellow</li>
-                </ul>
             <li>Each Crystal has its own number which is randomly picked between 1-12</li>
             <li>Click on each one will add points to total score. </li>
             <li>You can win only if your number will match the random number picked at the begining of the game.</li>
@@ -32,7 +25,7 @@
         </ol>
     </div>
     <div class="nmbrMatch">
-        <h3>Number to pick:
+        <h3>Click to equal:
             <span id="rndmNumber"></span>
         </h3>
     </div>
@@ -46,16 +39,18 @@
         </h3>
     </div>
 
-    <div class="CrstlS">
-        <img src="../images/Arena_Crystal.png" alt="Arena_Crystal">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <div class="CrstLs">
+        <div class="crstLs">
+            <img id="first" src="./assets/images/Arena_Crystal.png" alt="Arena_Crystal">
+            <img id="second" src="./assets/images/4-Star_Crystal.png" alt="4-Star_Crystal">
+            <img id="third" src="./assets/images/Crystal_multi_science.png" alt="Crystal_multi_science">
+            <img id="fourth" src="./assets/images/Crystal_generic6.png" alt="Crystal_generic6">
+        </div>
     </div>
 
     <div class="usrTotal">
         <h3>
-            Master Totatl Score:
+            Master Total Score:
             <span id="fnlTotal"></span>
         </h3>
     </div>
